@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 export const HeroCard = (props) => {
     const {id, superhero, alter_ego, first_appearance, characters} = props;    
-    const heroImageUrl = `/heroes/${id}.jpg`
+    const heroImageUrl = `./assets/heroes/${id}.jpg`
 
     return (
         <div className="col animate__animated animate__fadeIn">

@@ -18,6 +18,8 @@ export const Hero = () => {
         navigate(-1)   
     }
 
+    const heroImageUrl = `./assets/heroes/${id}.jpg`; 
+
     if( !hero ) return <Navigate  to='/marverl' />
 
 
@@ -26,7 +28,7 @@ export const Hero = () => {
         <div className="row mt-5">
             <div  className="col-4 animate__animated animate__backInLeft">
                 <img  
-                src={`/heroes/${id}.jpg`} 
+                src={heroImageUrl} 
                 alt={hero.superhero} 
                 className='img-thumbnail' />
             </div>
