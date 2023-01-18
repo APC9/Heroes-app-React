@@ -29,5 +29,6 @@
     "jest-environment-jsdom": "^29.3.1",
     "vite": "^4.0.0",
     "whatwg-fetch": "^3.6.2"
-  }
+  },
+  "homepage": "https://apc9.github.io/Heroes-app-React/"
 }
